@@ -1,11 +1,11 @@
 <?php
 
-namespace Kvaksrud\AzureCognitiveServices\Services;
+namespace Kvaksrud\AzureCognitiveServices\Api\Services;
 
-use Kvaksrud\AzureCognitiveServices\Http\Client\AzureRestClient;
-use Kvaksrud\AzureCognitiveServices\Http\Client\AzureRestResponse;
-use Kvaksrud\AzureCognitiveServices\Http\Controllers\AzureFaceController;
-use Kvaksrud\AzureCognitiveServices\Objects\FaceObject;
+use Kvaksrud\AzureCognitiveServices\Api\Client\AzureRestClient;
+use Kvaksrud\AzureCognitiveServices\Api\Client\AzureRestResponse;
+use Kvaksrud\AzureCognitiveServices\Api\Controllers\AzureFaceController;
+use Kvaksrud\AzureCognitiveServices\Api\Objects\FaceObject;
 
 class LargePersonGroupPerson
 {

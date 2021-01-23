@@ -1,6 +1,6 @@
 <?php
 
-namespace Kvaksrud\AzureCognitiveServices\Http\Client;
+namespace Kvaksrud\AzureCognitiveServices\Api\Client;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;

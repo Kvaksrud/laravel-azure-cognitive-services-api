@@ -1,8 +1,8 @@
 <?php
 
-namespace Kvaksrud\AzureCognitiveServices\Traits;
+namespace Kvaksrud\AzureCognitiveServices\Api\Traits;
 
-use Kvaksrud\AzureCognitiveServices\Objects\FaceObject;
+use Kvaksrud\AzureCognitiveServices\Api\Objects\FaceObject;
 
 trait FaceTraits {
 

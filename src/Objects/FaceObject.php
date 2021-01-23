@@ -1,6 +1,6 @@
 <?php
 
-namespace Kvaksrud\AzureCognitiveServices\Objects;
+namespace Kvaksrud\AzureCognitiveServices\Api\Objects;
 
 class FaceObject {
 

@@ -1,5 +1,5 @@
 {
-    "name": "kvaksrud/laravel-azure-cognitive-services",
+    "name": "kvaksrud/laravel-azure-cognitive-services-api",
     "description": "This package deals with Azure's cognitive services such as Face and Computer Vision",
     "type": "library",
     "license": "MIT",
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Kvaksrud\\AzureCognitiveServices\\": "src/"
+            "Kvaksrud\\AzureCognitiveServices\\Api\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kvaksrud\\AzureCognitiveServices\\AzureCognitiveServicesProvider"
+                "Kvaksrud\\AzureCognitiveServices\\Api\\AzureCognitiveServicesApiServiceProvider"
             ]
         }
     }

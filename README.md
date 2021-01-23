@@ -12,7 +12,7 @@ This currently supports
 
 Open CMD or PowerShell in your project folder and run the following commands to get started
  1. Install package with `composer require kvaksrud\laravel-azure-cognitive-services`
- 2. Publish configuration with `php artisan vendor:publish --provider="--provider=Kvaksrud\AzureCognitiveServices\AzureCognitiveServiceProvider"`
+ 2. Publish configuration with `php artisan vendor:publish --provider="--provider=Kvaksrud\AzureCognitiveServices\Api\AzureCognitiveServiceProvider"`
  3. In the .env file add the following. Make sure to replace with your values.
 ```
 AZURE_CS_FACE_ENDPOINT=https://yourfaceapp.cognitiveservices.azure.com/

@@ -1,15 +1,12 @@
 <?php
 
-namespace Kvaksrud\AzureCognitiveServices\Http\Controllers;
+namespace Kvaksrud\AzureCognitiveServices\Api\Controllers;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
-use Kvaksrud\AzureCognitiveServices\Objects\FaceObject;
-use Kvaksrud\AzureCognitiveServices\Services\Face;
-use Kvaksrud\AzureCognitiveServices\Http\Client\AzureRegions;
-use Kvaksrud\AzureCognitiveServices\Http\Client\AzureRestClient;
-use Kvaksrud\AzureCognitiveServices\Services\LargePersonGroup;
+use Kvaksrud\AzureCognitiveServices\Api\Services\Face;
+use Kvaksrud\AzureCognitiveServices\Api\Client\AzureRegions;
+use Kvaksrud\AzureCognitiveServices\Api\Client\AzureRestClient;
+use Kvaksrud\AzureCognitiveServices\Api\Services\LargePersonGroup;
 
 class AzureFaceController extends Controller
 {
